@@ -1,4 +1,4 @@
-start cmd /k python -m SimpleHTTPServer 8000
+start cmd /k python -m http.server 8000
 @echo off
 set /p Username= Username-
 set /p Password= Password-
